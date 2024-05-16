@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trafficity</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bgAnimation" id="bgAnimation">
+    <div class="backgroundAnim"></div>
+  </div>  
+
+  <nav id="nav" class="navbar">
+    <ul class="nav-links container">
+      <li><a class="links" href="#home">Home</a></li>
+      <li><a class="links" href="#register-section">Register</a></li>
+      <li><a class="links" href="#about-section">About</a></li>
+      <li><a class="links" href="#contact-section">Contact</a></li>
+      <li><a class="links" href="#services-section">Services</a></li>
+      <li><a class="links" href="login.html" target="_blank">Log In</a></li>
+    </ul>
+  </nav>
+
+  <article id="home" class="wrapper style1 home-section">
+    <div class="container home-content">
+      <header>
+        <h1>TRAFFICITY</h1>
+      </header>
+      <p>Unleashing innovation, easing congestion.</p>
+    </div>
+  </article>
+
+  <section class="white-section" id="about-section">
+    <h2>About Trafficity</h2>
+    <div class="about-container">
+      <p>
+        Traffic congestion remains a pervasive and stubborn problem for emerging industries. 
+        The alarming issue of daily heavy traffic, not just in Iligan but throughout the entire Philippines,
+        is unsettling for every Filipino greatly affected by its chaos. However, innovators strive to address this challenge by implementing and crafting innovative solutions to optimize traffic flow.
+        These solutions include adaptive traffic lights, rerouting applications, and advanced road information dissemination. All of these innovative ideas have proven effective in alleviating the traffic problem.
+      </p>
+      <p>
+        But what if we were to combine these innovative ideas into a more comprehensive approach? By integrating them and incorporating the latest attributes of emerging technologies, such as Artificial Intelligence (AI),
+        we could achieve even greater results. Wouldn't that be fantastic? "Trafficity" would be delighted to turn this idea into a reality.
+      </p>
+    </div>
+  </section>
+
+  <section class="white-section" id="register-section">
+    <h2>Register</h2>
+    <p>Fill up the following to create an account together with car information.</p>
+    <div class="register-container">
+      <div class="form-container">
+        <form id="register-form" action="/register" method="post">
+          <label for="username">Username:</label><br>
+          <input type="text" id="username" name="username" required><br><br>
+
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" required><br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="vehicle-class">Type of vehicle by weight class:</label><br>
+          <select id="vehicle-class" name="vehicle_class">
+            <option value="1">Class 1</option>
+            <option value="2">Class 2</option>
+            <option value="3">Class 3</option>
+            <option value="4">Class 4</option>
+            <option value="5">Class 5</option>
+            <option value="6">Class 6</option>
+            <option value="7">Class 7</option>
+            <option value="8">Class 8</option>
+          </select><br><br>
+
+          <label for="car-make">Car Manufacturer:</label><br>
+          <input type="text" id="car-make" name="car_make" required><br><br>
+
+          <label for="car-model">Car Model:</label><br>
+          <input type="text" id="car-model" name="car_model" required><br><br>
+
+          <label for="license-plate">License Plate:</label><br>
+          <input type="text" id="license-plate" name="license_plate" required><br><br>
+
+          <div class="button-container">
+            <input type="submit" class="button" value="Register">
+          </div>
+        </form>
+      </div>
+      <div class="poster-container">
+        <img src="byweight.png" alt="Poster" class="poster-image">
+      </div>
+    </div>
+  </section>
+
+  <section class="white-section" id="services-section">
+    <h2>Services</h2>
+    <ul class="horizontal-list">
+      <li>
+        <img src="rerouting.jpg" alt="Re-routing Logo" class="service-logo">
+        Re-routing
+      </li>
+      <li>
+        <img src="live_viewing.jpg" alt="Live-viewing GUI Logo" class="service-logo">
+        Live-viewing GUI
+      </li>
+      <li>
+        <img src="notification.jpg" alt="Traffic Notification Logo" class="service-logo">
+        Traffic Notification
+      </li>
+    </ul>
+  </section>
+
+  <section class="white-section" id="contact-section">
+    <h2>Contact Info</h2>
+    <p>Contact details and form.</p>
+    <div class="contact-container">
+      <div class="contact-card">
+        <img src="artkent.jpg" alt="Art Sumondong" class="contact-image">
+        <p>Art Sumondong</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/artkent.sumondong" target="_blank">Facebook</a>
+          <a href="https://www.linkedin.com/in/art-kent-sumondong-1512962aa/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/arrcc" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="contact-card">
+        <img src="h (1).jpg" alt="Kayron Ross Rivera" class="contact-image">
+        <p>Kayron Ross Rivera</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/kayronrossmorales.rivera" target="_blank">Facebook</a>
+          <a href="https://www.linkedin.com/in/kayron-ross-rivera-057b322aa/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/friend1profile" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="contact-card">
+        <img src="IMG_20240514_223530.jpg" alt="Franz Aclao" class="contact-image">
+        <p>Franz Aclao</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/franzxavier.aclao" target="_blank">Facebook</a>
+          <a href="https://www.linkedin.com/in/franz-xavier-aclao-3306882ab/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/friend2profile" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    async function registerUser(event) {
+      event.preventDefault();
+      const form = document.getElementById('register-form');
+      const formData = new FormData(form);
+      const data = {
+        username: formData.get('username'),
+        password: formData.get('password'),
+        email: formData.get('email'),
+        vehicle_class: formData.get('vehicle_class'),
+        car_make: formData.get('car_make'),
+        car_model: formData.get('car_model'),
+        license_plate: formData.get('license_plate')
+      };
+
+      try {
+        const response = await fetch('/register', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        });
+
+        const message = await response.text();
+        if (response.ok) {
+          alert('Registration successful!');
+          form.reset();
+        } else {
+          alert('Registration failed: ' + message);
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        alert('An error occurred. Please try again.');
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('register-form').addEventListener('submit', registerUser);
+    });
+  </script>
+</body>
+</html>
